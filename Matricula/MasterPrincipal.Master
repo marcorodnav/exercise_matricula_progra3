@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPrincipal.master.cs" Inherits="Matricula.MasterPrincipal" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td colspan="2" class="auto-style2">
+                    <asp:Image ID="Image1" runat="server" Height="311px" ImageAlign="Middle" ImageUrl="~/images/img_universidad1.jpg" style="text-align: center" Width="351px" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
+                    <asp:ImageButton ID="imgButtonEstudiantes" runat="server" ImageUrl="~/images/img_estudiantes1.jpg" />
+                </td>
+                <td class="auto-style2">
+                    <asp:ImageButton ID="imgButtonMaterias" runat="server" ImageUrl="~/images/img_materias1.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">ESTUDIANTES</td>
+                <td class="auto-style2">MATERIAS</td>
+            </tr>
+        </table>
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        Derechos reservados Universidad Politecnica Internacional 2018</div>
+    </form>
+</body>
+</html>
