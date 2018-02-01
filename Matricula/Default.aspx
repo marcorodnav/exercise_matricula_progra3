@@ -3,9 +3,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p class="auto-style2">
-        SISTEMA DE MATRICULA</p>
-    <p class="auto-style2">
-        DE</p>
-    <p class="auto-style2">
-        LA UNIVERSIDAD POLITECNICA INTERNACIONAL</p>
+    SISTEMA DE MATRICULA</p>
+<p class="auto-style2">
+    DE</p>
+<p class="auto-style2">
+    LA UNIVERSIDAD POLITECNICA INTERNACIONAL</p>
 </asp:Content>

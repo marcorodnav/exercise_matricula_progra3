@@ -22,15 +22,15 @@
         <table class="auto-style1">
             <tr>
                 <td colspan="2" class="auto-style2">
-                    <asp:Image ID="Image1" runat="server" Height="311px" ImageAlign="Middle" ImageUrl="~/images/img_universidad1.jpg" style="text-align: center" Width="351px" />
+                    <asp:Image ID="Image1" runat="server" Height="311px" ImageAlign="Middle" ImageUrl="~/images/img_universidad1.jpg" style="text-align: center" Width="351px" OnDataBinding="Image1_DataBinding" />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:ImageButton ID="imgButtonEstudiantes" runat="server" ImageUrl="~/images/img_estudiantes1.jpg" />
+                    <asp:ImageButton ID="imgButtonEstudiantes" runat="server" ImageUrl="~/images/img_estudiantes1.jpg" OnClick="imgButtonEstudiantes_Click" />
                 </td>
                 <td class="auto-style2">
-                    <asp:ImageButton ID="imgButtonMaterias" runat="server" ImageUrl="~/images/img_materias1.jpg" />
+                    <asp:ImageButton ID="imgButtonMaterias" runat="server" ImageUrl="~/images/img_materias1.jpg" OnClick="imgButtonMaterias_Click" />
                 </td>
             </tr>
             <tr>

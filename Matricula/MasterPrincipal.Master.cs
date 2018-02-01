@@ -13,5 +13,20 @@ namespace Matricula
         {
 
         }
+
+        protected void imgButtonEstudiantes_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("./Estudiantes.aspx");
+        }
+
+        protected void imgButtonMaterias_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("./Materias.aspx");
+        }
+
+        protected void Image1_DataBinding(object sender, EventArgs e)
+        {
+            Response.Redirect("./Default.aspx");
+        }
     }
 }
